@@ -1,0 +1,51 @@
+nohup: ignoring input
+/ifs1/Software/biosoft/cellranger-3.1.0/cellranger-cs/3.1.0/bin
+cellranger mkref (3.1.0)
+Copyright (c) 2019 10x Genomics, Inc.  All rights reserved.
+-------------------------------------------------------------------------------
+
+Dec 30 09:52:53 ..... Started STAR run
+Dec 30 09:52:53 ... Starting to generate Genome files
+Dec 30 09:54:45 ... starting to sort  Suffix Array. This may take a long time...
+Dec 30 09:55:06 ... sorting Suffix Array chunks and saving them to disk...
+Dec 30 10:32:39 ... loading chunks from disk, packing SA...
+Dec 30 10:33:16 ... Finished generating suffix array
+Dec 30 10:33:16 ... Generating Suffix Array index
+Dec 30 10:36:11 ... Completed Suffix Array index
+Dec 30 10:36:11 ..... Processing annotations GTF
+Dec 30 10:36:39 ..... Inserting junctions into the genome indices
+Dec 30 10:46:16 ... writing Genome to disk ...
+Dec 30 10:46:20 ... writing Suffix Array to disk ...
+Dec 30 10:46:34 ... writing SAindex to disk
+Dec 30 10:46:37 ..... Finished successfully
+Creating new reference folder at /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP
+...done
+
+Writing genome FASTA file into reference folder...
+...done
+
+Computing hash of genome FASTA file...
+...done
+
+Indexing genome FASTA file...
+...done
+
+Writing genes GTF file into reference folder...
+...done
+
+Computing hash of genes GTF file...
+...done
+
+Writing genes index file into reference folder (may take over 10 minutes for a 3Gb genome)...
+...done
+
+Writing genome metadata JSON file into reference folder...
+...done
+
+Generating STAR genome index (may take over 8 core hours for a 3Gb genome)...
+...done.
+
+>>> Reference successfully created! <<<
+
+You can now specify this reference on the command line:
+cellranger --transcriptome=/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP ...

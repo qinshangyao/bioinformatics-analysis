@@ -1,0 +1,43 @@
+Bioconductor version 3.10 (BiocManager 1.30.10), ?BiocManager::install for help
+Bioconductor version '3.10' is out-of-date; the current release version '3.12'
+  is available with R version '4.0'; see https://bioconductor.org/install
+################
+ChIP data: ../last_bam/../last_bam/SRR11510927.last.bam 
+Control data: NA 
+strandshift(min): -500 
+strandshift(step): 5 
+strandshift(max) 1500 
+user-defined peak shift NA 
+exclusion(min): 10 
+exclusion(max): NaN 
+num parallel nodes: NA 
+FDR threshold: 0.01 
+NumPeaks Threshold: NA 
+Output Directory: ../last_bam/../last_bam 
+narrowPeak output file name: NA 
+regionPeak output file name: NA 
+Rdata filename: NA 
+plot pdf filename: ../last_bam/../last_bam/SRR11510927.last.pdf 
+result filename: qual/SRR11510927.qual 
+Overwrite files?: FALSE
+
+[1] TRUE
+Loading required package: Rcpp
+Reading ChIP tagAlign/BAM file ../last_bam/../last_bam/SRR11510927.last.bam 
+opened /tmp/RtmpauAJel/SRR11510927.last.tagAlign1c5b2769b2d6e
+done. read 23547246 fragments
+ChIP data read length 125 
+[1] TRUE
+Calculating peak characteristics
+Minimum cross-correlation value 0.2333457 
+Minimum cross-correlation shift 1500 
+Top 3 cross-correlation values 0.305261626757233,0.30468156230152 
+Top 3 estimates for fragment length 150,175 
+Window half size 665 
+Phantom peak location 115 
+Phantom peak Correlation 0.304025 
+Normalized Strand cross-correlation coefficient (NSC) 1.308195 
+Relative Strand Cross correlation Coefficient (RSC) 1.017497 
+Phantom Peak Quality Tag 1 
+null device 
+          1 

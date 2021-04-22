@@ -1,0 +1,9 @@
+for j in `seq 24 35`
+do
+    i=SRR115109$j.sambamba.bam
+    samtools flagstat $i > ${i}.stat
+    samtools view -h -f 2 -q 30 $i | grep -v chrM |samtools sort -O bam -@ 5 -o -> SRR115109${j}.last.bam
+    samtools index SRR115109${j}.last.bam
+    samtools flagstat SRR115109${j}.last.bam
+    bedtools bamtobed -i SRR115109${j}.last.bam > SRR115109${j}.bed
+done

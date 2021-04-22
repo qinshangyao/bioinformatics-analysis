@@ -1,0 +1,9 @@
+## calculate %mtDNA: 
+for i in $(seq 24 35);
+do
+    sample=SRR115109${i}.sambamba.bam
+    echo 'processing:' ${sample}
+    mtReads=$(samtools idxstats  ${sample} | grep 'chrM' | cut -f 3) 
+    totalReads=$(samtools idxstats  ${sample}| awk '{SUM += $3} END {print SUM}')
+    echo '==> mtDNA Content:' $(bc <<< "scale=2;100*${mtReads}/${totalReads}")'%'
+done

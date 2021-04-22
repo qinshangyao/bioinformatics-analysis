@@ -1,0 +1,6 @@
+for i in $(seq 12 23);
+do
+    first=SRR115109${i}_trim_1P.fastq
+    second=SRR115109${i}_trim_2P.fastq
+    hisat2 -p 16 -x /ifs1/User/shangyao/genome/hisat2_index/mm10/genome -1 ./${first} -2 ./${second} -S ./hisat2_result/SRR115109${i}.sam 
+done

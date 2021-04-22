@@ -1,0 +1,5 @@
+for i in $(seq 24 35);
+do
+    id=SRR115109${i}
+    nohup sambamba markdup --overflow-list-size 600000 --tmpdir='./' -t 32 -r ${id}.raw.bam ${id}.sambamba.bam > {id}.rmdup_nohup 2>&1 &
+done

@@ -1,0 +1,54 @@
+nohup: ignoring input
+processing SRR11510912
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog trimlog.file_all SRR11510912_1.fastq.gz SRR11510912_2.fastq.gz -baseout SRR11510912_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15
+Using templated Output files: SRR11510912_trim_1P.fastq SRR11510912_trim_1U.fastq SRR11510912_trim_2P.fastq SRR11510912_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 18183454 Both Surviving: 18030381 (99.16%) Forward Only Surviving: 111417 (0.61%) Reverse Only Surviving: 41269 (0.23%) Dropped: 387 (0.00%)
+TrimmomaticPE: Completed successfully
+processing SRR11510913
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog trimlog.file_all SRR11510913_1.fastq.gz SRR11510913_2.fastq.gz -baseout SRR11510913_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15
+Using templated Output files: SRR11510913_trim_1P.fastq SRR11510913_trim_1U.fastq SRR11510913_trim_2P.fastq SRR11510913_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 16375052 Both Surviving: 16231464 (99.12%) Forward Only Surviving: 107870 (0.66%) Reverse Only Surviving: 35341 (0.22%) Dropped: 377 (0.00%)
+TrimmomaticPE: Completed successfully
+processing SRR11510914
+TrimmomaticPE: Started with arguments:
+ -threads 8 -trimlog trimlog.file_all SRR11510914_1.fastq.gz SRR11510914_2.fastq.gz -baseout SRR11510914_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15
+Using templated Output files: SRR11510914_trim_1P.fastq SRR11510914_trim_1U.fastq SRR11510914_trim_2P.fastq SRR11510914_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+java.io.IOException: Disk quota exceeded
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.write(BufferedWriter.java:230)
+	at java.io.Writer.write(Writer.java:157)
+	at org.usadellab.trimmomatic.fastq.FastqSerializer.writeRecord(FastqSerializer.java:63)
+	at org.usadellab.trimmomatic.threading.SerializerWorker.run(SerializerWorker.java:45)
+	at java.lang.Thread.run(Thread.java:748)
+java.io.IOException: Disk quota exceeded
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	a

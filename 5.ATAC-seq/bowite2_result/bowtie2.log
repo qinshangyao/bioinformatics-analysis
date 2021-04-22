@@ -1,0 +1,188 @@
+nohup: ignoring input
+SRR11510925 /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510925_1_val_1.fq.gz /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510925_2_val_2.fq.gz
+64557265 reads; of these:
+  64557265 (100.00%) were paired; of these:
+    3438667 (5.33%) aligned concordantly 0 times
+    46184776 (71.54%) aligned concordantly exactly 1 time
+    14933822 (23.13%) aligned concordantly >1 times
+    ----
+    3438667 pairs aligned concordantly 0 times; of these:
+      305645 (8.89%) aligned discordantly 1 time
+    ----
+    3133022 pairs aligned 0 times concordantly or discordantly; of these:
+      6266044 mates make up the pairs; of these:
+        5924381 (94.55%) aligned 0 times
+        126464 (2.02%) aligned exactly 1 time
+        215199 (3.43%) aligned >1 times
+95.41% overall alignment rate
+[bam_sort_core] merging from 32 files and 32 in-memory blocks...
+SRR11510926 /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510926_1_val_1.fq.gz /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510926_2_val_2.fq.gz
+42063876 reads; of these:
+  42063876 (100.00%) were paired; of these:
+    2411141 (5.73%) aligned concordantly 0 times
+    31466352 (74.81%) aligned concordantly exactly 1 time
+    8186383 (19.46%) aligned concordantly >1 times
+    ----
+    2411141 pairs aligned concordantly 0 times; of these:
+      228455 (9.47%) aligned discordantly 1 time
+    ----
+    2182686 pairs aligned 0 times concordantly or discordantly; of these:
+      4365372 mates make up the pairs; of these:
+        4152528 (95.12%) aligned 0 times
+        85375 (1.96%) aligned exactly 1 time
+        127469 (2.92%) aligned >1 times
+95.06% overall alignment rate
+[bam_sort_core] merging from 0 files and 32 in-memory blocks...
+SRR11510927 /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510927_1_val_1.fq.gz /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510927_2_val_2.fq.gz
+27470781 reads; of these:
+  27470781 (100.00%) were paired; of these:
+    2175635 (7.92%) aligned concordantly 0 times
+    21095776 (76.79%) aligned concordantly exactly 1 time
+    4199370 (15.29%) aligned concordantly >1 times
+    ----
+    2175635 pairs aligned concordantly 0 times; of these:
+      166921 (7.67%) aligned discordantly 1 time
+    ----
+    2008714 pairs aligned 0 times concordantly or discordantly; of these:
+      4017428 mates make up the pairs; of these:
+        3879451 (96.57%) aligned 0 times
+        67592 (1.68%) aligned exactly 1 time
+        70385 (1.75%) aligned >1 times
+92.94% overall alignment rate
+[bam_sort_core] merging from 0 files and 32 in-memory blocks...
+SRR11510928 /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510928_1_val_1.fq.gz /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510928_2_val_2.fq.gz
+43817065 reads; of these:
+  43817065 (100.00%) were paired; of these:
+    3130327 (7.14%) aligned concordantly 0 times
+    30064401 (68.61%) aligned concordantly exactly 1 time
+    10622337 (24.24%) aligned concordantly >1 times
+    ----
+    3130327 pairs aligned concordantly 0 times; of these:
+      241558 (7.72%) aligned discordantly 1 time
+    ----
+    2888769 pairs aligned 0 times concordantly or discordantly; of these:
+      5777538 mates make up the pairs; of these:
+        5510999 (95.39%) aligned 0 times
+        93873 (1.62%) aligned exactly 1 time
+        172666 (2.99%) aligned >1 times
+93.71% overall alignment rate
+[bam_sort_core] merging from 0 files and 32 in-memory blocks...
+SRR11510929 /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510929_1_val_1.fq.gz /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510929_2_val_2.fq.gz
+26421896 reads; of these:
+  26421896 (100.00%) were paired; of these:
+    2695519 (10.20%) aligned concordantly 0 times
+    17809568 (67.40%) aligned concordantly exactly 1 time
+    5916809 (22.39%) aligned concordantly >1 times
+    ----
+    2695519 pairs aligned concordantly 0 times; of these:
+      176186 (6.54%) aligned discordantly 1 time
+    ----
+    2519333 pairs aligned 0 times concordantly or discordantly; of these:
+      5038666 mates make up the pairs; of these:
+        4890530 (97.06%) aligned 0 times
+        56507 (1.12%) aligned exactly 1 time
+        91629 (1.82%) aligned >1 times
+90.75% overall alignment rate
+[bam_sort_core] merging from 0 files and 32 in-memory blocks...
+SRR11510930 /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510930_1_val_1.fq.gz /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510930_2_val_2.fq.gz
+22884899 reads; of these:
+  22884899 (100.00%) were paired; of these:
+    694186 (3.03%) aligned concordantly 0 times
+    17001074 (74.29%) aligned concordantly exactly 1 time
+    5189639 (22.68%) aligned concordantly >1 times
+    ----
+    694186 pairs aligned concordantly 0 times; of these:
+      61964 (8.93%) aligned discordantly 1 time
+    ----
+    632222 pairs aligned 0 times concordantly or discordantly; of these:
+      1264444 mates make up the pairs; of these:
+        1135035 (89.77%) aligned 0 times
+        66528 (5.26%) aligned exactly 1 time
+        62881 (4.97%) aligned >1 times
+97.52% overall alignment rate
+[bam_sort_core] merging from 0 files and 32 in-memory blocks...
+SRR11510931 /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510931_1_val_1.fq.gz /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510931_2_val_2.fq.gz
+29743301 reads; of these:
+  29743301 (100.00%) were paired; of these:
+    1283545 (4.32%) aligned concordantly 0 times
+    21787724 (73.25%) aligned concordantly exactly 1 time
+    6672032 (22.43%) aligned concordantly >1 times
+    ----
+    1283545 pairs aligned concordantly 0 times; of these:
+      75801 (5.91%) aligned discordantly 1 time
+    ----
+    1207744 pairs aligned 0 times concordantly or discordantly; of these:
+      2415488 mates make up the pairs; of these:
+        2253582 (93.30%) aligned 0 times
+        82178 (3.40%) aligned exactly 1 time
+        79728 (3.30%) aligned >1 times
+96.21% overall alignment rate
+[bam_sort_core] merging from 0 files and 32 in-memory blocks...
+SRR11510932 /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510932_1_val_1.fq.gz /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510932_2_val_2.fq.gz
+22623697 reads; of these:
+  22623697 (100.00%) were paired; of these:
+    1476853 (6.53%) aligned concordantly 0 times
+    16350752 (72.27%) aligned concordantly exactly 1 time
+    4796092 (21.20%) aligned concordantly >1 times
+    ----
+    1476853 pairs aligned concordantly 0 times; of these:
+      64976 (4.40%) aligned discordantly 1 time
+    ----
+    1411877 pairs aligned 0 times concordantly or discordantly; of these:
+      2823754 mates make up the pairs; of these:
+        2680675 (94.93%) aligned 0 times
+        78945 (2.80%) aligned exactly 1 time
+        64134 (2.27%) aligned >1 times
+94.08% overall alignment rate
+[bam_sort_core] merging from 0 files and 32 in-memory blocks...
+SRR11510933 /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510933_1_val_1.fq.gz /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510933_2_val_2.fq.gz
+28081066 reads; of these:
+  28081066 (100.00%) were paired; of these:
+    1299675 (4.63%) aligned concordantly 0 times
+    21540598 (76.71%) aligned concordantly exactly 1 time
+    5240793 (18.66%) aligned concordantly >1 times
+    ----
+    1299675 pairs aligned concordantly 0 times; of these:
+      112119 (8.63%) aligned discordantly 1 time
+    ----
+    1187556 pairs aligned 0 times concordantly or discordantly; of these:
+      2375112 mates make up the pairs; of these:
+        2222102 (93.56%) aligned 0 times
+        79931 (3.37%) aligned exactly 1 time
+        73079 (3.08%) aligned >1 times
+96.04% overall alignment rate
+[bam_sort_core] merging from 0 files and 32 in-memory blocks...
+SRR11510934 /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510934_1_val_1.fq.gz /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510934_2_val_2.fq.gz
+22672336 reads; of these:
+  22672336 (100.00%) were paired; of these:
+    1206367 (5.32%) aligned concordantly 0 times
+    17363157 (76.58%) aligned concordantly exactly 1 time
+    4102812 (18.10%) aligned concordantly >1 times
+    ----
+    1206367 pairs aligned concordantly 0 times; of these:
+      74580 (6.18%) aligned discordantly 1 time
+    ----
+    1131787 pairs aligned 0 times concordantly or discordantly; of these:
+      2263574 mates make up the pairs; of these:
+        2145464 (94.78%) aligned 0 times
+        66159 (2.92%) aligned exactly 1 time
+        51951 (2.30%) aligned >1 times
+95.27% overall alignment rate
+[bam_sort_core] merging from 0 files and 32 in-memory blocks...
+SRR11510935 /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510935_1_val_1.fq.gz /ifs1/User/shangyao/login123/ATAC-seq/clean_fastq/SRR11510935_2_val_2.fq.gz
+27121409 reads; of these:
+  27121409 (100.00%) were paired; of these:
+    1462770 (5.39%) aligned concordantly 0 times
+    19569832 (72.16%) aligned concordantly exactly 1 time
+    6088807 (22.45%) aligned concordantly >1 times
+    ----
+    1462770 pairs aligned concordantly 0 times; of these:
+      67037 (4.58%) aligned discordantly 1 time
+    ----
+    1395733 pairs aligned 0 times concordantly or discordantly; of these:
+      2791466 mates make up the pairs; of these:
+        2645652 (94.78%) aligned 0 times
+        74304 (2.66%) aligned exactly 1 time
+        71510 (2.56%) aligned >1 times
+95.12% overall alignment rate
+[bam_sort_core] merging from 0 files and 32 in-memory blocks...

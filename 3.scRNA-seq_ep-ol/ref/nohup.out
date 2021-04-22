@@ -1,0 +1,19 @@
+/ifs1/Software/biosoft/cellranger-3.1.0/cellranger-cs/3.1.0/bin
+cellranger mkref (3.1.0)
+Copyright (c) 2019 10x Genomics, Inc.  All rights reserved.
+-------------------------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "/ifs1/Software/biosoft/cellranger-3.1.0/cellranger-cs/3.1.0/bin/mkref", line 8, in <module>
+    import cellranger.reference as cr_reference
+  File "/ifs1/Software/biosoft/cellranger-3.1.0/cellranger-cs/3.1.0/lib/python/cellranger/reference.py", line 11, in <module>
+    import numpy as np
+  File "/ifs1/Software/biosoft/cellranger-3.1.0/miniconda-cr-cs/4.3.21-miniconda-cr-cs-c10/lib/python2.7/site-packages/numpy/__init__.py", line 158, in <module>
+    from . import add_newdocs
+  File "/ifs1/Software/biosoft/cellranger-3.1.0/miniconda-cr-cs/4.3.21-miniconda-cr-cs-c10/lib/python2.7/site-packages/numpy/add_newdocs.py", line 13, in <module>
+    from numpy.lib import add_newdoc
+  File "/ifs1/Software/biosoft/cellranger-3.1.0/miniconda-cr-cs/4.3.21-miniconda-cr-cs-c10/lib/python2.7/site-packages/numpy/lib/__init__.py", line 23, in <module>
+    from .npyio import *
+  File "/ifs1/Software/biosoft/cellranger-3.1.0/miniconda-cr-cs/4.3.21-miniconda-cr-cs-c10/lib/python2.7/site-packages/numpy/lib/npyio.py", line 1, in <module>
+    from __future__ import division, absolute_import, print_function
+KeyboardInterrupt

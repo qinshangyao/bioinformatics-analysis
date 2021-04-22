@@ -1,0 +1,425 @@
+STAR version=                 STAR_2.5.1b
+STAR compilation time,server,dir=Wed May 8 16:13:25 PDT 2019 :/mnt/home/jenkins/workspace/module-STAR-5dda596---latest/sake/modules/STAR/5dda596/source
+##### DEFAULT parameters:
+versionSTAR                       20201
+versionGenome                     20101   20200   
+parametersFiles                   -   
+sysShell                          -
+runMode                           alignReads
+runThreadN                        1
+runDirPerm                        User_RWX
+runRNGseed                        777
+genomeDir                         ./GenomeDir/
+genomeLoad                        NoSharedMemory
+genomeFastaFiles                  -   
+genomeSAindexNbases               14
+genomeChrBinNbits                 18
+genomeSAsparseD                   1
+genomeSuffixLengthMax             18446744073709551615
+readFilesIn                       Read1   Read2   
+readFilesCommand                  -   
+readMatesLengthsIn                NotEqual
+readMapNumber                     18446744073709551615
+readNameSeparator                 /   
+inputBAMfile                      -
+bamRemoveDuplicatesType           -
+bamRemoveDuplicatesMate2basesN    0
+limitGenomeGenerateRAM            31000000000
+limitIObufferSize                 150000000
+limitOutSAMoneReadBytes           100000
+limitOutSJcollapsed               1000000
+limitOutSJoneRead                 1000
+limitBAMsortRAM                   0
+limitSjdbInsertNsj                1000000
+outFileNamePrefix                 ./
+outTmpDir                         -
+outStd                            Log
+outReadsUnmapped                  None
+outQSconversionAdd                0
+outMultimapperOrder               Old_2.4
+outSAMtype                        SAM   
+outSAMmode                        Full
+outSAMstrandField                 None
+outSAMattributes                  Standard   
+outSAMunmapped                    None   
+outSAMorder                       Paired
+outSAMprimaryFlag                 OneBestScore
+outSAMreadID                      Standard
+outSAMmapqUnique                  255
+outSAMflagOR                      0
+outSAMflagAND                     65535
+outSAMattrRGline                  -   
+outSAMheaderHD                    -   
+outSAMheaderPG                    -   
+outSAMheaderCommentFile           -
+outBAMcompression                 1
+outBAMsortingThreadN              0
+outSAMfilter                      None   
+outSAMmultNmax                    18446744073709551615
+outSAMattrIHstart                 1
+outSJfilterReads                  All
+outSJfilterCountUniqueMin         3   1   1   1   
+outSJfilterCountTotalMin          3   1   1   1   
+outSJfilterOverhangMin            30   12   12   12   
+outSJfilterDistToOtherSJmin       10   0   5   10   
+outSJfilterIntronMaxVsReadN       50000   100000   200000   
+outWigType                        None   
+outWigStrand                      Stranded   
+outWigReferencesPrefix            -
+outWigNorm                        RPM   
+outFilterType                     Normal
+outFilterMultimapNmax             10
+outFilterMultimapScoreRange       1
+outFilterScoreMin                 0
+outFilterScoreMinOverLread        0.66
+outFilterMatchNmin                0
+outFilterMatchNminOverLread       0.66
+outFilterMismatchNmax             10
+outFilterMismatchNoverLmax        0.3
+outFilterMismatchNoverReadLmax    1
+outFilterIntronMotifs             None
+clip5pNbases                      0   
+clip3pNbases                      0   
+clip3pAfterAdapterNbases          0   
+clip3pAdapterSeq                  -   
+clip3pAdapterMMp                  0.1   
+winBinNbits                       16
+winAnchorDistNbins                9
+winFlankNbins                     4
+winAnchorMultimapNmax             50
+scoreGap                          0
+scoreGapNoncan                    -8
+scoreGapGCAG                      -4
+scoreGapATAC                      -8
+scoreStitchSJshift                1
+scoreGenomicLengthLog2scale       -0.25
+scoreDelBase                      -2
+scoreDelOpen                      -2
+scoreInsOpen                      -2
+scoreInsBase                      -2
+seedSearchLmax                    0
+seedSearchStartLmax               50
+seedSearchStartLmaxOverLread      1
+seedPerReadNmax                   1000
+seedPerWindowNmax                 50
+seedNoneLociPerWindow             10
+seedMultimapNmax                  10000
+alignIntronMin                    21
+alignIntronMax                    0
+alignMatesGapMax                  0
+alignTranscriptsPerReadNmax       10000
+alignSJoverhangMin                5
+alignSJDBoverhangMin              3
+alignSJstitchMismatchNmax         0   -1   0   0   
+alignSplicedMateMapLmin           0
+alignSplicedMateMapLminOverLmate    0.66
+alignWindowsPerReadNmax           10000
+alignTranscriptsPerWindowNmax     100
+alignEndsType                     Local
+alignSoftClipAtReferenceEnds      Yes
+chimSegmentMin                    0
+chimScoreMin                      0
+chimScoreDropMax                  20
+chimScoreSeparation               10
+chimScoreJunctionNonGTAG          -1
+chimJunctionOverhangMin           20
+chimOutType                       SeparateSAMold
+chimFilter                        banGenomicN   
+chimSegmentReadGapMax             0
+sjdbFileChrStartEnd               -   
+sjdbGTFfile                       -
+sjdbGTFchrPrefix                  -
+sjdbGTFfeatureExon                exon
+sjdbGTFtagExonParentTranscript    transcript_id
+sjdbGTFtagExonParentGene          gene_id
+sjdbOverhang                      100
+sjdbScore                         2
+sjdbInsertSave                    Basic
+quantMode                         -   
+quantTranscriptomeBAMcompression    1
+quantTranscriptomeBan             IndelSoftclipSingleend
+twopass1readsN                    18446744073709551615
+twopassMode                       None
+##### Command Line:
+STAR --runMode genomeGenerate --genomeDir /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star --runThreadN 1 --genomeFastaFiles /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa --sjdbGTFfile /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/genes/genes.gtf --limitGenomeGenerateRAM 17179869184 --genomeSAsparseD 3 --genomeSAindexNbases 14 --genomeChrBinNbits 18
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runMode                       genomeGenerate     ~RE-DEFINED
+genomeDir                     /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star     ~RE-DEFINED
+runThreadN                    1     ~RE-DEFINED
+genomeFastaFiles              /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa        ~RE-DEFINED
+sjdbGTFfile                   /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/genes/genes.gtf     ~RE-DEFINED
+limitGenomeGenerateRAM        17179869184     ~RE-DEFINED
+genomeSAsparseD               3     ~RE-DEFINED
+genomeSAindexNbases           14     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate
+runThreadN                        1
+genomeDir                         /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star
+genomeFastaFiles                  /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa   
+genomeSAindexNbases               14
+genomeChrBinNbits                 18
+genomeSAsparseD                   3
+limitGenomeGenerateRAM            17179869184
+sjdbGTFfile                       /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/genes/genes.gtf
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode genomeGenerate   --runThreadN 1   --genomeDir /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star   --genomeFastaFiles /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa      --genomeSAindexNbases 14   --genomeChrBinNbits 18   --genomeSAsparseD 3   --limitGenomeGenerateRAM 17179869184   --sjdbGTFfile /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/genes/genes.gtf
+
+##### Final parameters after user input--------------------------------:
+versionSTAR                       20201
+versionGenome                     20101   20200   
+parametersFiles                   -   
+sysShell                          -
+runMode                           genomeGenerate
+runThreadN                        1
+runDirPerm                        User_RWX
+runRNGseed                        777
+genomeDir                         /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star
+genomeLoad                        NoSharedMemory
+genomeFastaFiles                  /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa   
+genomeSAindexNbases               14
+genomeChrBinNbits                 18
+genomeSAsparseD                   3
+genomeSuffixLengthMax             18446744073709551615
+readFilesIn                       Read1   Read2   
+readFilesCommand                  -   
+readMatesLengthsIn                NotEqual
+readMapNumber                     18446744073709551615
+readNameSeparator                 /   
+inputBAMfile                      -
+bamRemoveDuplicatesType           -
+bamRemoveDuplicatesMate2basesN    0
+limitGenomeGenerateRAM            17179869184
+limitIObufferSize                 150000000
+limitOutSAMoneReadBytes           100000
+limitOutSJcollapsed               1000000
+limitOutSJoneRead                 1000
+limitBAMsortRAM                   0
+limitSjdbInsertNsj                1000000
+outFileNamePrefix                 ./
+outTmpDir                         -
+outStd                            Log
+outReadsUnmapped                  None
+outQSconversionAdd                0
+outMultimapperOrder               Old_2.4
+outSAMtype                        SAM   
+outSAMmode                        Full
+outSAMstrandField                 None
+outSAMattributes                  Standard   
+outSAMunmapped                    None   
+outSAMorder                       Paired
+outSAMprimaryFlag                 OneBestScore
+outSAMreadID                      Standard
+outSAMmapqUnique                  255
+outSAMflagOR                      0
+outSAMflagAND                     65535
+outSAMattrRGline                  -   
+outSAMheaderHD                    -   
+outSAMheaderPG                    -   
+outSAMheaderCommentFile           -
+outBAMcompression                 1
+outBAMsortingThreadN              0
+outSAMfilter                      None   
+outSAMmultNmax                    18446744073709551615
+outSAMattrIHstart                 1
+outSJfilterReads                  All
+outSJfilterCountUniqueMin         3   1   1   1   
+outSJfilterCountTotalMin          3   1   1   1   
+outSJfilterOverhangMin            30   12   12   12   
+outSJfilterDistToOtherSJmin       10   0   5   10   
+outSJfilterIntronMaxVsReadN       50000   100000   200000   
+outWigType                        None   
+outWigStrand                      Stranded   
+outWigReferencesPrefix            -
+outWigNorm                        RPM   
+outFilterType                     Normal
+outFilterMultimapNmax             10
+outFilterMultimapScoreRange       1
+outFilterScoreMin                 0
+outFilterScoreMinOverLread        0.66
+outFilterMatchNmin                0
+outFilterMatchNminOverLread       0.66
+outFilterMismatchNmax             10
+outFilterMismatchNoverLmax        0.3
+outFilterMismatchNoverReadLmax    1
+outFilterIntronMotifs             None
+clip5pNbases                      0   
+clip3pNbases                      0   
+clip3pAfterAdapterNbases          0   
+clip3pAdapterSeq                  -   
+clip3pAdapterMMp                  0.1   
+winBinNbits                       16
+winAnchorDistNbins                9
+winFlankNbins                     4
+winAnchorMultimapNmax             50
+scoreGap                          0
+scoreGapNoncan                    -8
+scoreGapGCAG                      -4
+scoreGapATAC                      -8
+scoreStitchSJshift                1
+scoreGenomicLengthLog2scale       -0.25
+scoreDelBase                      -2
+scoreDelOpen                      -2
+scoreInsOpen                      -2
+scoreInsBase                      -2
+seedSearchLmax                    0
+seedSearchStartLmax               50
+seedSearchStartLmaxOverLread      1
+seedPerReadNmax                   1000
+seedPerWindowNmax                 50
+seedNoneLociPerWindow             10
+seedMultimapNmax                  10000
+alignIntronMin                    21
+alignIntronMax                    0
+alignMatesGapMax                  0
+alignTranscriptsPerReadNmax       10000
+alignSJoverhangMin                5
+alignSJDBoverhangMin              3
+alignSJstitchMismatchNmax         0   -1   0   0   
+alignSplicedMateMapLmin           0
+alignSplicedMateMapLminOverLmate    0.66
+alignWindowsPerReadNmax           10000
+alignTranscriptsPerWindowNmax     100
+alignEndsType                     Local
+alignSoftClipAtReferenceEnds      Yes
+chimSegmentMin                    0
+chimScoreMin                      0
+chimScoreDropMax                  20
+chimScoreSeparation               10
+chimScoreJunctionNonGTAG          -1
+chimJunctionOverhangMin           20
+chimOutType                       SeparateSAMold
+chimFilter                        banGenomicN   
+chimSegmentReadGapMax             0
+sjdbFileChrStartEnd               -   
+sjdbGTFfile                       /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/genes/genes.gtf
+sjdbGTFchrPrefix                  -
+sjdbGTFfeatureExon                exon
+sjdbGTFtagExonParentTranscript    transcript_id
+sjdbGTFtagExonParentGene          gene_id
+sjdbOverhang                      100
+sjdbScore                         2
+sjdbInsertSave                    Basic
+quantMode                         -   
+quantTranscriptomeBAMcompression    1
+quantTranscriptomeBan             IndelSoftclipSingleend
+twopass1readsN                    18446744073709551615
+twopassMode                       None
+----------------------------------------
+
+Finished loading and checking parameters
+Dec 30 09:52:53 ... Starting to generate Genome files
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 0  "1" chrStart: 0
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 1  "10" chrStart: 195559424
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 2  "11" chrStart: 326369280
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 3  "12" chrStart: 448528384
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 4  "13" chrStart: 568852480
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 5  "14" chrStart: 689438720
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 6  "15" chrStart: 814481408
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 7  "16" chrStart: 918552576
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 8  "17" chrStart: 1016856576
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 9  "18" chrStart: 1112014848
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 10  "19" chrStart: 1202978816
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 11  "2" chrStart: 1264582656
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 12  "3" chrStart: 1446772736
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 13  "4" chrStart: 1606942720
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 14  "5" chrStart: 1763704832
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 15  "6" chrStart: 1915748352
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 16  "7" chrStart: 2065694720
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 17  "8" chrStart: 2211184640
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 18  "9" chrStart: 2340683776
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 19  "MT" chrStart: 2465464320
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 20  "X" chrStart: 2465726464
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 21  "Y" chrStart: 2636906496
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 22  "JH584299.1" chrStart: 2728656896
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 23  "GL456233.1" chrStart: 2729705472
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 24  "JH584301.1" chrStart: 2730229760
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 25  "GL456211.1" chrStart: 2730491904
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 26  "GL456350.1" chrStart: 2730754048
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 27  "JH584293.1" chrStart: 2731016192
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 28  "GL456221.1" chrStart: 2731278336
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 29  "JH584297.1" chrStart: 2731540480
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 30  "JH584296.1" chrStart: 2731802624
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 31  "GL456354.1" chrStart: 2732064768
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 32  "JH584294.1" chrStart: 2732326912
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 33  "JH584298.1" chrStart: 2732589056
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 34  "JH584300.1" chrStart: 2732851200
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 35  "GL456219.1" chrStart: 2733113344
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 36  "GL456210.1" chrStart: 2733375488
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 37  "JH584303.1" chrStart: 2733637632
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 38  "JH584302.1" chrStart: 2733899776
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 39  "GL456212.1" chrStart: 2734161920
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 40  "JH584304.1" chrStart: 2734424064
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 41  "GL456379.1" chrStart: 2734686208
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 42  "GL456216.1" chrStart: 2734948352
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 43  "GL456393.1" chrStart: 2735210496
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 44  "GL456366.1" chrStart: 2735472640
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 45  "GL456367.1" chrStart: 2735734784
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 46  "GL456239.1" chrStart: 2735996928
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 47  "GL456213.1" chrStart: 2736259072
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 48  "GL456383.1" chrStart: 2736521216
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 49  "GL456385.1" chrStart: 2736783360
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 50  "GL456360.1" chrStart: 2737045504
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 51  "GL456378.1" chrStart: 2737307648
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 52  "GL456389.1" chrStart: 2737569792
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 53  "GL456372.1" chrStart: 2737831936
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 54  "GL456370.1" chrStart: 2738094080
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 55  "GL456381.1" chrStart: 2738356224
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 56  "GL456387.1" chrStart: 2738618368
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 57  "GL456390.1" chrStart: 2738880512
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 58  "GL456394.1" chrStart: 2739142656
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 59  "GL456392.1" chrStart: 2739404800
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 60  "GL456382.1" chrStart: 2739666944
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 61  "GL456359.1" chrStart: 2739929088
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 62  "GL456396.1" chrStart: 2740191232
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 63  "GL456368.1" chrStart: 2740453376
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 64  "JH584292.1" chrStart: 2740715520
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 65  "JH584295.1" chrStart: 2740977664
+/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/fasta/genome.fa : chr # 66  "EGFP" chrStart: 2741239808
+Number of SA indices: 1768522814
+Dec 30 09:54:45 ... starting to sort  Suffix Array. This may take a long time...
+Number of chunks: 3;   chunks size limit: 7018107168 bytes
+Dec 30 09:55:06 ... sorting Suffix Array chunks and saving them to disk...
+Writing 6970551376 bytes into /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star/SA_0 ; empty space on disk = 37866586419200 bytes ... done
+Writing 7007314312 bytes into /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star/SA_1 ; empty space on disk = 37857676869632 bytes ... done
+Writing 170316824 bytes into /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star/SA_2 ; empty space on disk = 37851569856512 bytes ... done
+Dec 30 10:32:39 ... loading chunks from disk, packing SA...
+Dec 30 10:33:16 ... Finished generating suffix array
+Dec 30 10:33:16 ... Generating Suffix Array index
+Dec 30 10:36:11 ... Completed Suffix Array index
+Dec 30 10:36:11 ..... Processing annotations GTF
+WARNING: while processing sjdbGTFfile=/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/genes/genes.gtf: chromosome 'tdtomato' not found in Genome fasta files for line:
+tdtomato	unknown	exon	1	2023	.	+	.	gene_id "tdtomato"; transcript_id "tdtomato"; gene_name "tdtomato"; gene_biotype "protein_coding"
+Processing sjdbGTFfile=/ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/genes/genes.gtf, found:
+		102255 transcripts
+		760018 exons (non-collapsed)
+		249939 collapsed junctions
+Dec 30 10:36:39 ..... Finished GTF processing
+Dec 30 10:36:39   Loaded database junctions from the GTF file: /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/genes/genes.gtf: 249939 total junctions
+
+WARNING: long repeat for junction # 63251 : 13 119495135 119609191; left shift = 36; right shift = 255
+WARNING: long repeat for junction # 174320 : 5 112774527 112775017; left shift = 255; right shift = 69
+WARNING: long repeat for junction # 212709 : 7 141808196 141810304; left shift = 255; right shift = 255
+Dec 30 10:36:39   Finished preparing junctions
+Dec 30 10:36:39 ..... Inserting junctions into the genome indices
+Dec 30 10:44:36   Finished SA search: number of new junctions=249880, old junctions=0
+Dec 30 10:45:12   Finished sorting SA indicesL nInd=99951454
+Dec 30 10:45:44   Finished inserting junction indices
+Dec 30 10:46:16   Finished SAi
+Dec 30 10:46:16 ..... Finished inserting junctions into genome
+Dec 30 10:46:16 ... writing Genome to disk ...
+Writing 2791727832 bytes into /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star/Genome ; empty space on disk = 37864493142016 bytes ... done
+SA size in bytes: 7707456359
+Dec 30 10:46:20 ... writing Suffix Array to disk ...
+Writing 7707456359 bytes into /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star/SA ; empty space on disk = 37861693206528 bytes ... done
+Dec 30 10:46:34 ... writing SAindex to disk
+Writing 8 bytes into /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star/SAindex ; empty space on disk = 37853896691712 bytes ... done
+Writing 120 bytes into /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star/SAindex ; empty space on disk = 37853896667136 bytes ... done
+Writing 1565873491 bytes into /ifs1/User/shangyao/login123/scRNA-seq/olig2_inj/ref/Mus_genome_EGFP/star/SAindex ; empty space on disk = 37853896667136 bytes ... done
+Dec 30 10:46:37 ..... Finished successfully
+DONE: Genome generation, EXITING

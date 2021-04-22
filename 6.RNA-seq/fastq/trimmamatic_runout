@@ -1,0 +1,157 @@
+nohup: ignoring input
+processing SRR11510912
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510912_1.fastq.gz SRR11510912_2.fastq.gz -baseout SRR11510912_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510912_trim_1P.fastq SRR11510912_trim_1U.fastq SRR11510912_trim_2P.fastq SRR11510912_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 18183454 Both Surviving: 14453627 (79.49%) Forward Only Surviving: 723363 (3.98%) Reverse Only Surviving: 740022 (4.07%) Dropped: 2266442 (12.46%)
+TrimmomaticPE: Completed successfully
+processing SRR11510913
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510913_1.fastq.gz SRR11510913_2.fastq.gz -baseout SRR11510913_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510913_trim_1P.fastq SRR11510913_trim_1U.fastq SRR11510913_trim_2P.fastq SRR11510913_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 16375052 Both Surviving: 13026789 (79.55%) Forward Only Surviving: 745218 (4.55%) Reverse Only Surviving: 618180 (3.78%) Dropped: 1984865 (12.12%)
+TrimmomaticPE: Completed successfully
+processing SRR11510914
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510914_1.fastq.gz SRR11510914_2.fastq.gz -baseout SRR11510914_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510914_trim_1P.fastq SRR11510914_trim_1U.fastq SRR11510914_trim_2P.fastq SRR11510914_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 18279229 Both Surviving: 14716824 (80.51%) Forward Only Surviving: 828918 (4.53%) Reverse Only Surviving: 726930 (3.98%) Dropped: 2006557 (10.98%)
+TrimmomaticPE: Completed successfully
+processing SRR11510915
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510915_1.fastq.gz SRR11510915_2.fastq.gz -baseout SRR11510915_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510915_trim_1P.fastq SRR11510915_trim_1U.fastq SRR11510915_trim_2P.fastq SRR11510915_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 16563797 Both Surviving: 13321741 (80.43%) Forward Only Surviving: 626988 (3.79%) Reverse Only Surviving: 690462 (4.17%) Dropped: 1924606 (11.62%)
+TrimmomaticPE: Completed successfully
+processing SRR11510916
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510916_1.fastq.gz SRR11510916_2.fastq.gz -baseout SRR11510916_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510916_trim_1P.fastq SRR11510916_trim_1U.fastq SRR11510916_trim_2P.fastq SRR11510916_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 21002557 Both Surviving: 16754323 (79.77%) Forward Only Surviving: 792640 (3.77%) Reverse Only Surviving: 926517 (4.41%) Dropped: 2529077 (12.04%)
+TrimmomaticPE: Completed successfully
+processing SRR11510917
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510917_1.fastq.gz SRR11510917_2.fastq.gz -baseout SRR11510917_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510917_trim_1P.fastq SRR11510917_trim_1U.fastq SRR11510917_trim_2P.fastq SRR11510917_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 17904060 Both Surviving: 13428257 (75.00%) Forward Only Surviving: 1484910 (8.29%) Reverse Only Surviving: 361122 (2.02%) Dropped: 2629771 (14.69%)
+TrimmomaticPE: Completed successfully
+processing SRR11510918
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510918_1.fastq.gz SRR11510918_2.fastq.gz -baseout SRR11510918_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510918_trim_1P.fastq SRR11510918_trim_1U.fastq SRR11510918_trim_2P.fastq SRR11510918_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 15159633 Both Surviving: 11469240 (75.66%) Forward Only Surviving: 1366071 (9.01%) Reverse Only Surviving: 283622 (1.87%) Dropped: 2040700 (13.46%)
+TrimmomaticPE: Completed successfully
+processing SRR11510919
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510919_1.fastq.gz SRR11510919_2.fastq.gz -baseout SRR11510919_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510919_trim_1P.fastq SRR11510919_trim_1U.fastq SRR11510919_trim_2P.fastq SRR11510919_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 17478963 Both Surviving: 13364585 (76.46%) Forward Only Surviving: 1659713 (9.50%) Reverse Only Surviving: 326064 (1.87%) Dropped: 2128601 (12.18%)
+TrimmomaticPE: Completed successfully
+processing SRR11510920
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510920_1.fastq.gz SRR11510920_2.fastq.gz -baseout SRR11510920_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510920_trim_1P.fastq SRR11510920_trim_1U.fastq SRR11510920_trim_2P.fastq SRR11510920_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 18517321 Both Surviving: 14237917 (76.89%) Forward Only Surviving: 1479555 (7.99%) Reverse Only Surviving: 389840 (2.11%) Dropped: 2410009 (13.01%)
+TrimmomaticPE: Completed successfully
+processing SRR11510921
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510921_1.fastq.gz SRR11510921_2.fastq.gz -baseout SRR11510921_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510921_trim_1P.fastq SRR11510921_trim_1U.fastq SRR11510921_trim_2P.fastq SRR11510921_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 17564105 Both Surviving: 13579057 (77.31%) Forward Only Surviving: 1310895 (7.46%) Reverse Only Surviving: 372461 (2.12%) Dropped: 2301692 (13.10%)
+TrimmomaticPE: Completed successfully
+processing SRR11510922
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510922_1.fastq.gz SRR11510922_2.fastq.gz -baseout SRR11510922_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510922_trim_1P.fastq SRR11510922_trim_1U.fastq SRR11510922_trim_2P.fastq SRR11510922_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 15181966 Both Surviving: 11786585 (77.64%) Forward Only Surviving: 1381706 (9.10%) Reverse Only Surviving: 302062 (1.99%) Dropped: 1711613 (11.27%)
+TrimmomaticPE: Completed successfully
+processing SRR11510923
+TrimmomaticPE: Started with arguments:
+ -threads 16 -trimlog trimlog.file SRR11510923_1.fastq.gz SRR11510923_2.fastq.gz -baseout SRR11510923_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51
+Using templated Output files: SRR11510923_trim_1P.fastq SRR11510923_trim_1U.fastq SRR11510923_trim_2P.fastq SRR11510923_trim_2U.fastq
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 21275916 Both Surviving: 16249056 (76.37%) Forward Only Surviving: 1535366 (7.22%) Reverse Only Surviving: 455626 (2.14%) Dropped: 3035868 (14.27%)
+TrimmomaticPE: Completed successfully

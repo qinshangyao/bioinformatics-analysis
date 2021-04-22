@@ -1,0 +1,5 @@
+for i in `seq 12 23`
+do
+    echo "processing SRR115109${i}"
+    htseq-count -s no -r pos -f bam SRR115109${i}_sorted.bam /ifs1/User/shangyao/genome/gencode/gtf/gencode.vM25.annotation.gtf > SRR115109${i}.count 2> SRR115109${i}.2log 
+done

@@ -1,0 +1,5 @@
+for bam in ../last_bam/*.last.bam;
+do
+    bam2=`basename $bam .last.bam`
+    nohup /usr/bin/Rscript ~/downlaod/phantompeakqualtools/run_spp_nodups.R -c=../last_bam/$bam -savp -out=qual/${bam2}.qual > logs/${bam2}.Rout 2>&1 &
+done

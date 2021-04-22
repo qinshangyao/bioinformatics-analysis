@@ -1,0 +1,1 @@
+STAR --runThreadN 30 --runMode genomeGenerate --genomeDir ./star_index --genomeFastaFiles danRer11.fa --sjdbGTFfile danRer11.ensGene.gtf  --sjdbOverhang 49

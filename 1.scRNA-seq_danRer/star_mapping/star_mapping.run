@@ -1,0 +1,12 @@
+index=/ifs1/User/shangyao/ncbi/public/sra/danRer_genome/star_index
+for id in ./clean_data/SRR*
+do
+    prefix=$(ls $id| cut -d "/" -f 3|cut -d "_" -f 1)
+    out1=./mapping_result/mapping_1/${prefix}
+    out2=./mapping_result/mapping_2/${prefix}
+    echo $prefix
+    STAR --genomeDir ${index} --readFilesIn $id --outFileNamePrefix $out1 --readFilesCommand zcat --runThreadN 30 --sjdbGTFfile /ifs1/User/shangyao/ncbi/public/sra/danRer_genome/danRer11.ensGene.gtf --sjdbOverhang 49 
+
+    STAR --genomeDir ${index} --readFilesIn $id --outFileNamePrefix $out2 --readFilesCommand zcat --runThreadN 30 --sjdbGTFfile /ifs1/User/shangyao/ncbi/public/sra/danRer_genome/danRer11.ensGene.gtf --sjdbScore 0 --sjdbOverhang 49 --outFilterMatchNmin 10 --outSAMunmapped Within --quantMode TranscriptomeSAM --sjdbFileChrStartEnd ${out1}SJ.out.tab
+done
+    

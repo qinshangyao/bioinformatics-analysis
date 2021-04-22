@@ -1,0 +1,6 @@
+for i in $(seq 12 23)
+do
+    j=SRR115109$i
+    echo "processing $j"
+    java -jar /ifs1/Software/biosoft/Trimmomatic-0.36/trimmomatic-0.36.jar PE -threads 16 -trimlog trimlog.file ${j}_1.fastq.gz ${j}_2.fastq.gz -baseout ${j}_trim.fastq ILLUMINACLIP:/ifs1/Software/biosoft/Trimmomatic-0.36/adapters/NexteraPE-PE.fa:2:30:10:8:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:51 
+done

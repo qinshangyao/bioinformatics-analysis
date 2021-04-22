@@ -1,0 +1,13 @@
+Run	Assay Type	Bases	Bytes	cells	GEO_Accession (exp)	LibrarySelection	method	sample
+SRR11510924	ATAC-seq	13914798408	5467834106	ependymal	GSM4460188	other	1k_cells_ATACseq	Foxj1_tdT_5dpi_rep1
+SRR11510925	ATAC-seq	18025498764	7099521534	ependymal	GSM4460189	other	1k_cells_ATACseq	Foxj1_tdT_1dpi_rep1
+SRR11510926	ATAC-seq	11455352244	4495372180	ependymal	GSM4460190	other	1k_cells_ATACseq	Foxj1_tdT_5dpi_rep2
+SRR11510927	ATAC-seq	7699374144	3044340475	ependymal	GSM4460191	other	1k_cells_ATACseq	Foxj1_Olig2_tdT_5dpi_rep1
+SRR11510928	ATAC-seq	12148530660	4726114013	ependymal	GSM4460192	other	1k_cells_ATACseq	Foxj1_Olig2_tdT_Uninj_rep1
+SRR11510929	ATAC-seq	7335399456	2877265167	ependymal	GSM4460193	other	1k_cells_ATACseq	Foxj1_Olig2_tdT_5dpi_rep2
+SRR11510930	ATAC-seq	6442964136	2254763267	ependymal	GSM4460194	other	1k_cells_ATACseq	Foxj1_Olig2_tdT_Uninj_rep2
+SRR11510931	ATAC-seq	8398406520	2927778505	ependymal	GSM4460195	other	1k_cells_ATACseq	Foxj1_Olig2_tdT_1dpi_rep2
+SRR11510932	ATAC-seq	6370914060	2253224058	ependymal	GSM4460196	other	1k_cells_ATACseq	Foxj1_Olig2_tdT_1dpi_rep1
+SRR11510933	ATAC-seq	7854876792	2756261274	ependymal	GSM4460197	other	1k_cells_ATACseq	Foxj1_tdT_Uninj_rep1
+SRR11510934	ATAC-seq	6304021164	2225291670	ependymal	GSM4460198	other	1k_cells_ATACseq	Foxj1_tdT_Uninj_rep2
+SRR11510935	ATAC-seq	7673091300	2679170657	ependymal	GSM4460199	other	1k_cells_ATACseq	Foxj1_tdT_1dpi_rep2
